@@ -27,10 +27,10 @@ services:
 Скачайте файл скрипта на сервер
 
 ```sh
-wget -O v2fly_node.sh https://raw.githubusercontent.com/mahlenko/marzban-update-geosite/refs/heads/main/v2fly_marzban.sh && chmod +x v2fly_node.sh
+wget -O v2fly_node.sh https://raw.githubusercontent.com/mahlenko/marzban-update-geosite/refs/heads/main/v2fly_node.sh && chmod +x v2fly_node.sh
 ```
 
-Отредактируйте docker-compose /opt/marzban-node/docker-compose.yml добавьте в volumes каталог с новой БД:
+Отредактируйте docker-compose `/opt/marzban-node/docker-compose.yml` добавьте в volumes каталог с новой БД:
 
 ```yml
 services:
